@@ -25,7 +25,6 @@ class WeatherController < ApplicationController
       #try to get the conditions for the given zipcode
       conditions = wunderground.conditions_for(zipcode)
     rescue Exception => e
-      debugger
       if !!(e.message =~ /querynotfound/)
         # the user entered an invalid zipcode
         flash[:error] = "Zipcode not found."

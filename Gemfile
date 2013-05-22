@@ -5,7 +5,6 @@ gem 'rails', '3.2.13'
 gem 'execjs'
 gem 'therubyracer', :platforms => :ruby
 gem 'wunderground'
-gem 'pg'
 
 group :development, :test do
   gem 'debugger'

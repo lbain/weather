@@ -1,0 +1,7 @@
+<%= form_for(:zipcode_form, url: new_zipcode_path) do |f| %>
+
+  <%= f.label :zipcode %>
+  <%= f.text_field :zipcode %>
+  
+  <%= f.submit "Get Weather" %>
+<% end %>

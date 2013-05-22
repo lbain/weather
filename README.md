@@ -2,17 +2,11 @@ weather
 ===========
 
 Setup:
-- clone the repo
+- clone the repo ```git clone```
 
-    git clone
+- run ```bundle install```
 
-- run
-
-    bundle install
-
-- start the server
-
-    rails s
+- start the server ```rails s```
 
 
 This project doesn't have a database, so no worries about setting that up.
